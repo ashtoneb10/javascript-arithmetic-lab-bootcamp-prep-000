@@ -28,8 +28,9 @@ return parseInt(n);
 
 function preserveDecimal(n) {
 if (n>9.99){
-  n = 0
+  n = 0;
+  return n;
 } else {
-  return parseFloat(n)
+  return parseFloat(n);
   }
 }
